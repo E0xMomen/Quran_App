@@ -26,6 +26,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+          drawerTheme: DrawerThemeData(
+        scrimColor: Colors.white,
+      )),
       debugShowCheckedModeBanner: false,
       home: const IndexPage(),
     );

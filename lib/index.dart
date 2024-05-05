@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quran_app/enddrawer.dart';
 import 'drawer.dart';
 import 'surahbuilder.dart';
 import 'constants.dart';
@@ -15,6 +16,7 @@ class _IndexPageState extends State<IndexPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      endDrawer: enddrawer(),
       drawer: const MyDrawer(),
       floatingActionButton: FloatingActionButton(
         tooltip: 'Go to bookmark',

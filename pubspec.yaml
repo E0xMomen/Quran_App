@@ -72,6 +72,7 @@ flutter:
     - assets/quran.gif
     - assets/hafs_smart_v8.json
     - assets/quran2.png
+    - assets/Team_member/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
