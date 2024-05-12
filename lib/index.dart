@@ -86,7 +86,6 @@ class _IndexPageState extends State<IndexPage> {
 
   Container indexCreator(quran, context) {
     return Container(
-      color: const Color.fromARGB(255, 221, 250, 236),
       child: ListView(
         children: [
           for (int i = 0; i < 114; i++)
