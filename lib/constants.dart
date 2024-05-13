@@ -16,6 +16,7 @@ double arabicFontSize = 28;
 double mushafFontSize = 40;
 
 Uri quranAppurl = Uri.parse('https://github.com/Momen1011/Quran_App');
+
 Uri momen = Uri.parse("https://www.linkedin.com/in/momen-ameer-7b3032233");
 Uri abdo = Uri.parse("https://www.linkedin.com/in/abdulrhman-amr-aa3891261/");
 Uri magraby =
